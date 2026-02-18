@@ -7,6 +7,7 @@ unique_users = set(raw_logs)
 # Membership test to check if a specific ID exists
 is_id05_present = "ID05" in unique_users
 
+
 # Compare counts to show how duplicates are removed
 original_count = len(raw_logs)
 unique_count = len(unique_users)
